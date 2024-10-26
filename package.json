@@ -25,7 +25,7 @@
   "description": "Gatsby source plugin to fetch data from Wix CMS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AminPainter/gatsby-source-wix.git"
+    "url": "git+https://github.com/AminPainter/gatsby-source-wix.git"
   },
   "homepage": "https://github.com/AminPainter/gatsby-source-wix#readme",
   "devDependencies": {
