@@ -1,19 +1,25 @@
 {
   "name": "gatsby-source-wix",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/gatsby-node.js",
+  "files": [
+    "./dist/*",
+    "gatsby-node.js"
+  ],
   "scripts": {
+    "clean": "del-cli dist",
     "predev": "npm install",
     "build": "tsc",
     "start": "node dist/gatsby-node.js",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "prepare": "npm run clean && npm run build"
   },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "gatsby-source-wix"
   ],
-  "author": "",
+  "author": "Mohammed Amin Painter",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -24,5 +30,8 @@
   "dependencies": {
     "@wix/data": "^1.0.161",
     "@wix/sdk": "^1.14.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.0.0"
   }
 }

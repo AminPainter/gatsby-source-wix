@@ -55,11 +55,6 @@ const sourceNodes: GatsbyNode['sourceNodes'] = async (
     for (const document of collection.items) nodeBuilder(gatsbyApi, document);
   });
 
-  console.dir(
-    collections.map(c => c.items),
-    { depth: null }
-  );
-
   sourcingTimer.setStatus('Data fetched successfully from Wix CMS! 🎉');
   sourcingTimer.end();
 };
