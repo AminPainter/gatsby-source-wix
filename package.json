@@ -17,11 +17,17 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "gatsby-source-wix"
+    "gatsby-source-wix",
+    "wix"
   ],
   "author": "Mohammed Amin Painter",
   "license": "ISC",
-  "description": "",
+  "description": "Gatsby source plugin to fetch data from Wix CMS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AminPainter/gatsby-source-wix.git"
+  },
+  "homepage": "https://github.com/AminPainter/gatsby-source-wix#readme",
   "devDependencies": {
     "@types/node": "^22.8.1",
     "gatsby": "^5.13.7",
