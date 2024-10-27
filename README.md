@@ -1,6 +1,6 @@
 # gatsby-source-wix
 
-A Gatsby plugin to pull data from Wix Studio's CMS into Gatsby's GraphQL data layer. This plugin uses the `@wix/sdk` and `@wix/data` libraries to fetch and structure data efficiently.
+A Gatsby plugin to pull data from Wix Studio's CMS into Gatsby's GraphQL data layer. This plugin uses the `@wix/sdk` and `@wix/data` libraries under the hood.
 
 [![NPM Version](https://img.shields.io/npm/v/gatsby-source-wix.svg)](https://www.npmjs.com/package/gatsby-source-wix)
 
@@ -114,7 +114,7 @@ Here's an example of querying a collection named `blogPosts`:
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/your-repo/gatsby-source-wix/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/AminPainter/gatsby-source-wix/issues).
 
 ---
 
